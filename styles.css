@@ -1,3 +1,8 @@
+
+a:hover{
+    opacity: 0.7;
+}
+
 *{
     padding:0;
     margin:0;
@@ -14,7 +19,7 @@
 }
 
 body {
-    background-color: #fdf4e9;
+    background-color: rgb(220, 220, 220);
     bottom: 0;
     display: flex;
     font-family: "Mukta", sans-serif;
@@ -25,6 +30,7 @@ body {
 
 
 #content {
+    min-width: 800px;
     max-width: 800px;
     margin: auto;
     margin-top: 100px;
@@ -48,12 +54,13 @@ body {
 }
 
 .cv-icon-border {
-    border: 2px solid #acafb2;
+    border: 1px solid #acafb2;
     border-radius: 5px;
     float: left;
     margin: 20px;
     height: 50px;
     width: 50px;
+    padding: 2px;
 }
 
 .cv-icon-link {
@@ -68,7 +75,7 @@ body {
 
 #email {
     align-content: center;
-    width: 500px;
+    width: 400px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -215,8 +222,8 @@ h4 {
     text-transform: uppercase;
     display: inline-block;
     font-size: 16px;
-    font-weight: 800;
-    letter-spacing: 1px;
+    font-weight: 400;
+    letter-spacing: 3px;
     width: 180px;
 }
 

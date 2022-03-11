@@ -19,6 +19,14 @@ a:link {
     font-size: 16px;
 }
 
+#andrew {
+    border-radius: 5px;
+    float: left;
+    margin: 20px;
+    height: 200px;
+    width: 200px;
+}
+
 body {
     background-color: #fdf4e9;
     font-family: "Mukta", sans-serif;
@@ -56,6 +64,26 @@ body {
     margin: 20px;
     height: 50px;
     width: 50px;
+}
+
+#email {
+    align-content: center;
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#emailLink {
+    align-content: center;
+    text-decoration: none;
+    border: none;
+    color: white;
+    display: block;
+    padding: 0 0 0 0;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
 }
 
 .fa {

@@ -1,0 +1,90 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<head>
+    <title>Kinobilletter</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">  <link rel="stylesheet" href="styles.css">
+    <script src="customer.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+
+<body>
+<div id="banner-top">
+    <h1>
+        Bestilling av kinobilletter
+    </h1>
+</div>
+<div id="content">
+    <form class="row g-3" name="customerInfo">
+        <div class="col-md-6">
+            <div class="form-outline">
+                <label class="form-label" for="innFilmer">Velg film: </label>
+                <select class="form-select input-sm" name="innFilmer" id="innFilmer">
+                    <option selected disabled value="">Velg film her</option>
+                    <option value="Harry Potter">Harry Potter</option>
+                    <option value="Lord of the Rings">Lord of the Rings</option>
+                    <option value="The Devil Wears Prada">The Devil Wears Prada</option>
+                    <option value="A Beautiful Mind">A Beautiful Mind</option>
+                </select>
+                <div class="alert" id="filmerAlert">
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="form-outline">
+                <label class="form-label" for="innAntallBilletter">Antall billetter: </label>
+                <input class="form-control" type="text" id="innAntallBilletter" name="innAntallBilletter">
+                <div class="alert" id="billetterAlert">
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="form-outline">
+                <label class="form-label" for="innFornavn">Fornavn: </label>
+                <input class="form-control" type="text" id="innFornavn" name="innFornavn">
+                <div class="alert" id="fornavnAlert">
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="form-outline">
+                <label class="form-label" for="innEtternavn">Etternavn: </label><input class="form-control" type="text" id="innEtternavn" name="innEtternavn">
+                <div class="alert" id="etternavnAlert">
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="form-outline">
+                <label class="form-label" for="innTelefonnummer">Telefonnummer: </label><input class="form-control" type="text" id="innTelefonnummer" name="innTelefonnummer">
+                <div class="alert" id="telefonnummerAlert">
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="form-outline">
+                <label class="form-label" for="innEpostadresse">E-postadresse: </label><input class="form-control" type="text" id="innEpostadresse" name="innEpostadresse">
+                <div class="alert" id="epostadresseAlert">
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12">
+            <button type="submit" class="btn btn-primary" id="register" onclick="return false">Kjøp billett</button>
+            <button type="button" class="btn btn-primary" id="showAll">Vis alle billettene</button>
+        </div>
+    </form>
+    <h2>Alle billetter</h2>
+    <table class="table" id="output">
+    </table>
+    <button type="button" class="btn btn-danger" id="deleteAll">Slett alle billettene</button>
+</div>
+</body>
+</html>

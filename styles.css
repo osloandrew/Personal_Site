@@ -1,0 +1,70 @@
+.alert {
+    color: red;
+}
+
+#banner-top {
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    overflow: auto;
+    width:100%;
+}
+
+body {
+    background-color: #fdf4e9;
+    font-family: "Mukta", sans-serif;
+}
+
+#content {
+    background-color: #fdf4e9;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 50px;
+    font-family: "Mukta", sans-serif;
+}
+
+#deleteAll {
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin-top:30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+h2 {
+    margin-top:20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-outline{
+    min-height:140px;
+    max-height:140px;
+}
+
+form {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+#output {
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#register {
+    margin-right: 5px;
+}
+
+#showAll {
+
+}

@@ -5,6 +5,7 @@ a {
     color: white;
     text-decoration: none;
     font-family: "Asap", sans-serif;
+
 }
 
 a:hover{
@@ -34,6 +35,19 @@ body {
 
 }
 
+.button{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#contact {
+    height: 150px;
+    width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+
+}
 
 #content {
     background-color: #ffffff;
@@ -99,10 +113,12 @@ body {
 
 #email {
     align-content: center;
-    width: 400px;
     display: block;
+    margin-top: 40px;
     margin-left: auto;
     margin-right: auto;
+    max-width: 200px;
+
 }
 
 #emailLink {
@@ -115,6 +131,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     background-color: white;
+    max-width: 200px;
 }
 
 .fa {
@@ -190,14 +207,12 @@ h1 {
     font-family: "Asap", sans-serif;
     font-weight: 300;
     margin-top:30px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     text-align: center;
 }
 
 h2 {
     display: block;
-    margin-top:20px;
-    margin-bottom: 20px;
     text-align: center;
     font-family: "Asap", sans-serif;
     font-weight: 300;
@@ -205,7 +220,6 @@ h2 {
 
 h3 {
     display: block;
-    margin-top:10px;
     margin-bottom: 10px;
     margin-left: 20px;
     text-align: left;

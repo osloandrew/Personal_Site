@@ -14,12 +14,12 @@
         text-decoration: none;
     }
     #andrew {
-        border-radius: 5px;
-        float: left;
-        margin-right: 40px;
-        margin-top: 0px;
+        display: block;
+        border-radius: 100px;
+        margin-right: auto;
+        margin-top: 40px;
         margin-bottom: 40px;
-        margin-left: 40px;
+        margin-left: auto;
         height: 240px;
         width: 240px;
     }
@@ -60,7 +60,8 @@
         width: 90%;
     }
     .cv-icon {
-        border-radius: 5px;
+        border: 0.5px solid #acafb2;
+        border-radius: 100px;
         float: left;
         margin-top: 0;
         margin-bottom: 20px;
@@ -68,18 +69,6 @@
         margin-right: 20px;
         height: 140px;
         width: 140px;
-    }
-    .cv-icon-border {
-        border: 1px solid #acafb2;
-        border-radius: 5px;
-        float: left;
-        margin-top: 0;
-        margin-bottom: 20px;
-        margin-left: 20px;
-        margin-right: 20px;
-        height: 140px;
-        width: 140px;
-        padding: 2px;
     }
     .cv-icon-link {
         background-color: white;
@@ -299,12 +288,12 @@
     text-decoration: none;
 }
     #andrew {
-    border-radius: 5px;
-    float: left;
-    margin-right: 20px;
-    margin-top: 0px;
+    display: block;
+    border-radius: 100px;
+    margin-right: auto;
+    margin-top: 40px;
     margin-bottom: 20px;
-    margin-left: 20px;
+    margin-left: auto;
     height: 200px;
     width: 200px;
 }
@@ -346,7 +335,8 @@
     padding-right: 5px;
 }
     .cv-icon {
-    border-radius: 5px;
+    border: 0.5px solid #acafb2;
+    border-radius: 100px;
     float: left;
     margin-top: 0;
     margin-bottom: 20px;
@@ -354,18 +344,6 @@
     margin-right: 20px;
     height: 50px;
     width: 50px;
-}
-    .cv-icon-border {
-    border: 1px solid #acafb2;
-    border-radius: 5px;
-    float: left;
-    margin-top: 0;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-    height: 50px;
-    width: 50px;
-    padding: 2px;
 }
     .cv-icon-link {
     background-color: white;
@@ -443,6 +421,7 @@
     margin-top: 50px;
 }
     .grid-item {
+
 }
     h1 {
     display: block;

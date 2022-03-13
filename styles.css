@@ -51,8 +51,8 @@
         display: block;
         min-height: 500px;
         margin: auto;
-        margin-top: 38%;
-        margin-bottom: 50px;
+        margin-top: 360px;
+        margin-bottom: 60px;
         padding-top: 10px;
         padding-bottom: 10px;
         padding-left: 5px;
@@ -209,7 +209,7 @@
         position: fixed;
         grid-row-gap: 30px;
         grid-template-columns: auto auto auto;
-        height: 15%;
+        height: 300px;
         overflow: hidden;
         top: 0;
         width:100%;

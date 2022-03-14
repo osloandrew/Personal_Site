@@ -286,7 +286,13 @@
         font-family: "Source Serif Pro", serif;
         margin-left: 50px;
         margin-right: 50px;
+    }
 
+    ul {
+        font-size: 40px;
+        font-family: "Source Serif Pro", serif;
+        margin-left: 50px;
+        margin-right: 50px;
     }
     #phone {
         align-content: center;
@@ -571,6 +577,13 @@
     font-family: "Source Serif Pro", serif;
 
 }
+
+    ul {
+        margin-left: 20px;
+        margin-right: 20px;
+        font-family: "Source Serif Pro", serif;
+
+    }
 
     }
     .w3-bar {

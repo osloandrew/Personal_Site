@@ -108,32 +108,10 @@
         background-color: white;
         max-width: 80%;
     }
-
-    #phone {
-        align-content: center;
-        display: block;
-        margin-top: 40px;
-        margin-left: auto;
-        margin-right: auto;
-        max-width: 100%;
-    }
-    #phoneLink {
-        align-content: center;
-        text-decoration: none;
-        border: none;
-        color: white;
-        display: block;
-        padding: 0 0 0 0;
-        margin-left: auto;
-        margin-right: auto;
-        background-color: white;
-        max-width: 80%;
-    }
     .fa {
         display: none;
         float: left;
     }
-
     #footer {
         background-color: #354344;
         box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2), 0 0 20px 0 rgba(0, 0, 0, 0.19);
@@ -220,8 +198,7 @@
     }
     #header {
         align-content: center;
-        /* background-color: #354344; */
-        background-color: #a9cb89;
+        background-color: #354344;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         display: grid;
         position: fixed;
@@ -310,6 +287,26 @@
         margin-left: 50px;
         margin-right: 50px;
 
+    }
+    #phone {
+        align-content: center;
+        display: block;
+        margin-top: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 100%;
+    }
+    #phoneLink {
+        align-content: center;
+        text-decoration: none;
+        border: none;
+        color: white;
+        display: block;
+        padding: 0 0 0 0;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: white;
+        max-width: 80%;
     }
     .w3-bar {
         text-align: center;

@@ -113,20 +113,23 @@
         float: left;
     }
     #footer {
+        align-items: center;
         background-color: #354344;
         box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2), 0 0 20px 0 rgba(0, 0, 0, 0.19);
         color: white;
-        height: 50px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        font-size: 35px;
+        letter-spacing: 2px;
+        font-weight: 100;
+        text-transform: uppercase;
+        height: 150px;
         margin-bottom: 0;
         overflow: auto;
         width: 100%;
         margin-top: auto;
-        display: flex;
-        font-size: 30px;
-        flex-direction: row;
-        flex-wrap: wrap;
         justify-content: center;
-        align-items: center;
         font-family: "Source Sans Pro", sans-serif;
     }
     #footerContent {
@@ -487,6 +490,8 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    font-weight: 100;
+    text-transform: uppercase;
     font-family: "Source Sans Pro", sans-serif;
 }
     #footerContent {

@@ -35,6 +35,9 @@
     .button{
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
+    .button:hover{
+        opacity: 0.7;
+    }
     #contact {
         height: 200px;
         width: 200px;
@@ -63,6 +66,7 @@
     .cv-icon {
         border: 0.5px solid #acafb2;
         border-radius: 100px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         display: block;
         margin-top: 30px;
         margin-bottom: 30px;
@@ -370,7 +374,12 @@
 }
     .button{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
+    }
+
+    .button:hover{
+        opacity: 0.7;
+    }
+
     #contact {
     height: 150px;
     width: 150px;
@@ -400,6 +409,7 @@
     .cv-icon {
     border: 0.5px solid #acafb2;
     border-radius: 100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     display: block;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -408,6 +418,7 @@
     height: 50px;
     width: 50px;
 }
+
     .cv-icon-link {
     background-color: white;
     height: 50px;
@@ -444,26 +455,6 @@
     max-width: 200px;
 }
 
-    #phone {
-        align-content: center;
-        display: block;
-        margin-top: 40px;
-        margin-left: auto;
-        margin-right: auto;
-        max-width: 200px;
-    }
-    #phoneLink {
-        align-content: center;
-        text-decoration: none;
-        border: none;
-        color: white;
-        display: block;
-        padding: 0 0 0 0;
-        margin-left: auto;
-        margin-right: auto;
-        background-color: white;
-        max-width: 200px;
-    }
     .fa {
     display: flex;
     align-content: center;
@@ -504,7 +495,8 @@
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
     align-content: center;
-    margin-top: 50px;
+    margin-top: 30px;
+    margin-bottom:30px;
 }
     .grid-item {
 
@@ -599,14 +591,38 @@
     p {
     margin-left: 20px;
     margin-right: 20px;
+    letter-spacing: 0.6px;
     font-family: "Source Serif Pro", serif;
 
 }
 
+    #phone {
+        align-content: center;
+        display: block;
+        margin-top: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 200px;
+    }
+    #phoneLink {
+        align-content: center;
+        text-decoration: none;
+        border: none;
+        color: white;
+        display: block;
+        padding: 0 0 0 0;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: white;
+        max-width: 200px;
+    }
+
     ul {
         margin-left: 20px;
         margin-right: 20px;
+        font-size: 18px;
         font-family: "Source Serif Pro", serif;
+        letter-spacing: 0.6px;
 
     }
 

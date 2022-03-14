@@ -15,6 +15,7 @@
     }
     #andrew {
         display: block;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         border-radius: 300px;
         margin-right: auto;
         margin-top: 40px;
@@ -62,25 +63,27 @@
     .cv-icon {
         border: 0.5px solid #acafb2;
         border-radius: 100px;
-        float: left;
-        margin-top: 0;
-        margin-bottom: 20px;
-        margin-left: 20px;
-        margin-right: 20px;
-        height: 140px;
-        width: 140px;
+        display: block;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        height: 100px;
+        width: 100px;
     }
     .cv-icon-link {
         background-color: white;
         height: 140px;
         width: 140px;
-        float: left;
         border: 2px solid #acafb2;
         border-radius: 5px;
         margin: 20px;
     }
     .cv-unit {
         margin-top: 50px;
+        margin-bottom: 50px;
+        margin-left: 40px;
+        margin-right: 40px;
         min-height: 80px;
     }
     .cv-unit-sub {
@@ -137,9 +140,11 @@
         display: grid;
         grid-template-columns: auto auto auto auto;
         align-content: center;
-        margin-top: 120px;
+        margin-top: 50px;
+
     }
     .grid-item {
+
     }
     h1 {
         display: block;
@@ -163,9 +168,9 @@
         display: block;
         margin-top: 10px;
         margin-bottom: 10px;
-        margin-left: 20px;
-        margin-right: 20px;
-        text-align: left;
+        margin-left: 10px;
+        margin-right: 10px;
+        text-align: center;
         font-family: "Source Sans Pro", sans-serif;
         font-weight: 400;
         font-size: 50px;
@@ -174,8 +179,9 @@
         display: block;
         margin-top: 10px;
         margin-bottom: 10px;
-        margin-left: 20px;
-        text-align: left;
+        margin-left: 10px;
+        margin-right: 10px;
+        text-align: center;
         font-family: "Source Sans Pro", sans-serif;
         font-weight: 400;
         font-size: 40px;
@@ -185,7 +191,7 @@
         margin-top: 10px;
         margin-bottom: 10px;
         margin-left: 20px;
-        text-align: left;
+        text-align: center;
         font-family: "Source Sans Pro", sans-serif;
         font-weight: 300;
         font-size: 30px;
@@ -289,6 +295,7 @@
 }
     #andrew {
     display: block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 300px;
     margin-right: auto;
     margin-top: 40px;

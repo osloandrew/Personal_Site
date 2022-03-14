@@ -377,7 +377,10 @@
         z-index: -1;
         width: 100%;
         max-width: initial;
-        opacity: 0.5;
+        opacity: 0.6;
+    }
+    #banner3 {
+        height: 100%;
     }
     body {
     background-color: rgb(220, 220, 220);

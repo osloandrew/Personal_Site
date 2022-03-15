@@ -123,22 +123,11 @@
         max-width: 70%;
     }
     .fa {
-        align-content: center;
-        align-items: center;
-        justify-content: center;
-        text-decoration: none;
-        margin: 20px;
-        border: none;
-        color: white;
-        display: block;
-        text-align: center;
-        text-transform: uppercase;
-        font-weight: 400;
-        width: 70%;
-
-        vertical-align: middle;
         font-size: xxx-large;
-
+        margin: 20px;
+        padding: 50px;
+        text-align: center;
+        width: 70%;
     }
     /* Facebook */
     .fa-facebook {

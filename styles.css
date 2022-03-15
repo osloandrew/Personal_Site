@@ -30,6 +30,9 @@
         width: 100%;
         z-index: -1;
     }
+    #bio{
+        margin: 40px;
+    }
     body {
         background-color: rgb(220, 220, 220);
         bottom: 0;
@@ -231,12 +234,12 @@
     hr {
         margin-left: auto;
         margin-right: auto;
-        width: 80%;
+        width: 90%;
     }
     .hr-1 {
         margin-left: auto;
         margin-right: auto;
-        width: 50%;
+        width: 20%;
     }
     li {
         margin-top: 15px;
@@ -323,7 +326,7 @@
         font-size: 40px;
         font-family: "Source Serif Pro", serif;
         letter-spacing: 0.8px;
-        line-height: 1.6;
+        line-height: 1.8;
         margin-left: 50px;
         margin-right: 50px;
     }
@@ -393,6 +396,9 @@
     }
     #banner3 {
         height: 100%;
+    }
+    #bio{
+        margin: 40px;
     }
     body {
     background-color: rgb(220, 220, 220);
@@ -595,12 +601,12 @@
     hr {
         margin-left: auto;
         margin-right: auto;
-        width: 80%;
+        width: 90%;
     }
     .hr-1 {
         margin-left: auto;
         margin-right: auto;
-        width: 50%;
+        width: 20%;
     }
     li {
         margin-top: 5px;

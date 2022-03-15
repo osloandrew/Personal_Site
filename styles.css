@@ -99,13 +99,23 @@
     }
     .cv-unit-sub {
     }
+    .date{
+        display: block;
+        margin-top: 35px;
+        margin-bottom: 35px;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: "Source Sans Pro", sans-serif;
+        font-weight: 400;
+        font-size: 40px;
+    }
     #email {
         align-content: center;
         display: block;
         margin-top: 40px;
         margin-left: auto;
         margin-right: auto;
-        max-width: 100%;
+        max-width: 90%;
     }
     #emailLink {
         align-content: center;
@@ -117,7 +127,7 @@
         margin-left: auto;
         margin-right: auto;
         background-color: white;
-        max-width: 80%;
+        max-width: 70%;
     }
     .fa {
         display: none;
@@ -154,10 +164,8 @@
         grid-template-columns: 25% 25% 25% 25%;
         align-content: center;
         margin-top: 50px;
-
     }
     .grid-item {
-
     }
     h1 {
         display: block;
@@ -221,13 +229,20 @@
         top: 0;
         width:100%;
     }
-
     hr {
         margin-left: auto;
         margin-right: auto;
         width: 80%;
     }
-
+    .hr-1 {
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    li {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
     #menulink1 {
         display: flex;
         align-items:center;
@@ -327,7 +342,7 @@
         margin-top: 40px;
         margin-left: auto;
         margin-right: auto;
-        max-width: 100%;
+        max-width: 90%;
     }
     #phoneLink {
         align-content: center;
@@ -339,7 +354,7 @@
         margin-left: auto;
         margin-right: auto;
         background-color: white;
-        max-width: 80%;
+        max-width: 70%;
     }
     .w3-bar {
         text-align: center;
@@ -406,7 +421,6 @@
     margin-right: auto;
     margin-top: 40px;
     margin-bottom: 40px;
-
 }
     #content {
     background-color: #ffffff;
@@ -436,7 +450,6 @@
     height: 50px;
     width: 50px;
 }
-
     .cv-icon-link {
     background-color: white;
     height: 50px;
@@ -448,10 +461,20 @@
 }
     .cv-unit {
     margin-top: 50px;
+    margin-bottom: 50px;
     min-height: 80px;
 }
     .cv-unit-sub {
 }
+    .date{
+        display: block;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: "Source Sans Pro", sans-serif;
+        font-weight: 400;
+    }
     #email {
     align-content: center;
     display: block;
@@ -472,7 +495,6 @@
     background-color: white;
     max-width: 200px;
 }
-
     .fa {
     display: flex;
     align-content: center;
@@ -584,7 +606,11 @@
         margin-right: auto;
         width: 80%;
     }
-
+    .hr-1 {
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
     .nav-link {
     color: white;
 }

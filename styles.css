@@ -37,8 +37,6 @@
         height: 100%;
         min-height: 100vh;
         flex-direction: column;
-        opacity: 0;
-        transition: opacity 2s;
     }
     .button{
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -360,7 +358,7 @@
     }
 }
 
-@media only screen and (min-device-width: 500px) and (orientation: landscape)
+@media only screen and (min-device-width: 500px)
 {
     a {
     color: white;
@@ -397,8 +395,6 @@
         height: 100%;
     }
     body {
-    opacity: 0;
-    transition: opacity 2s;
     background-color: rgb(220, 220, 220);
     bottom: 0;
     display: flex;

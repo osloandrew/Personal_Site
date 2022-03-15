@@ -611,6 +611,10 @@
         margin-right: auto;
         width: 50%;
     }
+    li {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
     .nav-link {
     color: white;
 }

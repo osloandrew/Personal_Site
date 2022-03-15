@@ -47,15 +47,6 @@
     .button:hover{
         opacity: 0.7;
     }
-    #contact {
-        height: 200px;
-        width: 200px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 40px;
-        margin-bottom: 40px;
-    }
     #content {
         background-color: #ffffff;
         border-radius: 10px;
@@ -114,6 +105,7 @@
         align-content: center;
         display: block;
         margin-top: 40px;
+        margin-bottom: 40px;
         margin-left: auto;
         margin-right: auto;
         max-width: 90%;
@@ -131,8 +123,36 @@
         max-width: 70%;
     }
     .fa {
-        display: none;
-        float: left;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        margin: auto;
+        border: none;
+        color: white;
+        display: block;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 400;
+        width: 250px;
+        padding: 30px;
+        vertical-align: middle;
+
+    }
+    /* Facebook */
+    .fa-facebook {
+        background: #3B5998;
+        color: white;
+    }
+    /* Twitter */
+    .fa-twitter {
+        background: #55ACEE;
+        color: white;
+    }
+    /* LinkedIn */
+    .fa-linkedin {
+        background: #007bb6;
+        color: white;
     }
     #footer {
         align-items: center;
@@ -281,27 +301,6 @@
         height: 150px;
         font-size: 35px;
     }
-    #menulink5 {
-        align-items:center;
-        justify-content:center;
-        grid-row: 1 / span 1;
-        grid-column: 1 / span 1;
-        display: none;
-    }
-    #menulink6 {
-        align-items:center;
-        justify-content:center;
-        grid-row: 1 / span 1;
-        grid-column: 2 / span 1;
-        display: none;
-    }
-    #menulink7 {
-        align-items:center;
-        justify-content:center;
-        grid-row: 1 / span 1;
-        grid-column: 3 / span 1;
-        display: none;
-    }
     .nav-link {
         color: white;
     }
@@ -356,6 +355,13 @@
         margin-right: auto;
         background-color: white;
         max-width: 70%;
+    }
+    #social{
+        display: flex;
+        align-content: center;
+        align-items: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
     }
     .w3-bar {
         text-align: center;
@@ -415,15 +421,6 @@
     .button:hover{
         opacity: 0.7;
     }
-    #contact {
-    height: 150px;
-    width: 150px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
     #content {
     background-color: #ffffff;
     border-radius: 10px;
@@ -497,17 +494,38 @@
     max-width: 200px;
 }
     .fa {
-    display: flex;
-    align-content: center;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-    margin: auto;
-    max-width: 70px;
+        align-content: center;
+        align-items: center;
+        border: none;
+        color: white;
+        display: block;
+        justify-content: center;
+        margin: auto;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 400;
+        width: 200px;
+        padding: 15px;
+        vertical-align: middle;
 }
     .fa:hover {
     opacity: 0.7;
 }
+    /* Facebook */
+    .fa-facebook {
+        background: #3B5998;
+        color: white;
+    }
+    /* Twitter */
+    .fa-twitter {
+        background: #55ACEE;
+        color: white;
+    }
+    /* LinkedIn */
+    .fa-linkedin {
+        background: #007bb6;
+        color: white;
+    }
     #footer {
     background-color: #354344;
     box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2), 0 0 20px 0 rgba(0, 0, 0, 0.19);
@@ -658,6 +676,13 @@
         margin-right: auto;
         background-color: white;
         max-width: 200px;
+    }
+    #social{
+        display: flex;
+        align-content: center;
+        align-items: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
     }
     ul {
         margin-left: 20px;

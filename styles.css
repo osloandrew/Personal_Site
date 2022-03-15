@@ -398,7 +398,7 @@
     }
     body {
         opacity: 0;
-        transition: opacity .5s;
+        transition: opacity 1s;
     background-color: rgb(220, 220, 220);
     bottom: 0;
     display: flex;

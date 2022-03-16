@@ -258,6 +258,9 @@
         margin-top: 15px;
         margin-bottom: 15px;
     }
+    #logo{
+        display: none;
+    }
     #menulink1 {
         display: flex;
         align-items:center;
@@ -615,6 +618,12 @@
     li {
         margin-top: 5px;
         margin-bottom: 5px;
+    }
+    #logo{
+        position: absolute;
+        height: 80%;
+        left: 0;
+        vertical-align: center;
     }
     .nav-link {
     color: white;

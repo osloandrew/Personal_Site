@@ -1,127 +1,178 @@
 var dictionary = [
     {
-        word:"bil",
-        def:"et kjøretøy",
-        rel:["lastebil", "tog"]
+        word:"abstrakt",
+        def:"abstract",
+        rel:"adjective"
     },
     {
-        word:"datamaskin",
-        def:"det du har",
-        rel:["appelsin", "pære"]
+        word:"aktiv",
+        def:"active",
+        rel:"adjective"
     },
     {
-        word:"eple",
-        def:"mat du spiser",
-        rel:["appelsin", "pære"]
+        word:"album",
+        def:"album",
+        rel:"noun ⚲"
     },
     {
-        word:"menneske",
-        def:"det du er",
-        rel:["person", "folk"]
+        word:"aldri",
+        def:"never",
+        rel:"adverb"
     },
     {
-        word:"penger",
-        def:"det du har",
-        rel:["jobb", "arbeid"]
+        word:"bake",
+        def:"bake",
+        rel:"verb"
     },
     {
-        word:"tid",
-        def:"det du har",
-        rel:["jobb", "arbeid"]
+        word:"bakeri",
+        def:"bakery",
+        rel:"noun ⚲"
     },
     {
-        word:"bil",
-        def:"et kjøretøy",
-        rel:["lastebil", "tog"]
+        word:"bank",
+        def:"bank",
+        rel:"noun ♂"
     },
     {
-        word:"datamaskin",
-        def:"det du har",
-        rel:["appelsin", "pære"]
+        word:"barn",
+        def:"child",
+        rel:"noun ⚲"
     },
     {
-        word:"eple",
-        def:"mat du spiser",
-        rel:["appelsin", "pære"]
+        word:"bål",
+        def:"bonfire",
+        rel:"noun ⚲"
     },
     {
-        word:"menneske",
-        def:"det du er",
-        rel:["person", "folk"]
+        word:"det",
+        def:"it, that",
+        rel:"pronoun ⚲"
     },
     {
-        word:"penger",
-        def:"det du har",
-        rel:["jobb", "arbeid"]
+        word:"ende",
+        def:"end",
+        rel:"verb"
     },
     {
-        word:"tid",
-        def:"det du har",
-        rel:["jobb", "arbeid"]
+        word:"film",
+        def:"movie, film",
+        rel:"noun ♂"
     },
     {
-        word:"bil",
-        def:"et kjøretøy",
-        rel:["lastebil", "tog"]
+        word:"gjerne",
+        def:"gladly",
+        rel:"adverb"
     },
     {
-        word:"datamaskin",
-        def:"det du har",
-        rel:["appelsin", "pære"]
+        word:"han",
+        def:"he",
+        rel:"pronoun ♂"
     },
     {
-        word:"eple",
-        def:"mat du spiser",
-        rel:["appelsin", "pære"]
+        word:"hun",
+        def:"she",
+        rel:"pronoun ♀"
     },
     {
-        word:"menneske",
-        def:"det du er",
-        rel:["person", "folk"]
+        word:"i",
+        def:"in",
+        rel:"preposition"
     },
     {
-        word:"penger",
-        def:"det du har",
-        rel:["jobb", "arbeid"]
+        word:"jern",
+        def:"iron",
+        rel:"noun ⚲"
     },
     {
-        word:"tid",
-        def:"det du har",
-        rel:["jobb", "arbeid"]
+        word:"kvinne",
+        def:"woman",
+        rel:"noun ♀"
     },
     {
-        word:"bil",
-        def:"et kjøretøy",
-        rel:["lastebil", "tog"]
+        word:"ledig",
+        def:"available",
+        rel:"adjective"
     },
     {
-        word:"datamaskin",
-        def:"det du har",
-        rel:["appelsin", "pære"]
+        word:"mann",
+        def:"man",
+        rel:"noun ♂"
     },
     {
-        word:"eple",
-        def:"mat du spiser",
-        rel:["appelsin", "pære"]
+        word:"ny",
+        def:"new",
+        rel:"adjective"
     },
     {
-        word:"menneske",
-        def:"det du er",
-        rel:["person", "folk"]
+        word:"optimist",
+        def:"optimist",
+        rel:"noun ♂"
     },
     {
-        word:"penger",
-        def:"det du har",
-        rel:["jobb", "arbeid"]
+        word:"ord",
+        def:"word",
+        rel:"noun ⚲"
     },
     {
-        word:"tid",
-        def:"det du har",
-        rel:["jobb", "arbeid"]
-    }
-    ];
+        word:"sortere",
+        def:"sort",
+        rel:"verb"
+    },
+    {
+        word:"student",
+        def:"student",
+        rel:"noun ♂"
+    },
+    {
+        word:"tre",
+        def:"tree",
+        rel:"noun ⚲"
+    },
+    {
+        word:"tunge",
+        def:"tongue",
+        rel:"noun ♀"
+    },
+    {
+        word:"uenig",
+        def:"in disagreement",
+        rel:"adjective"
+    },
+    {
+        word:"ulv",
+        def:"wolf",
+        rel:"noun ♂"
+    },
+    {
+        word:"ærlig",
+        def:"honest",
+        rel:"adjective"
+    },
+    {
+        word:"øre",
+        def:"ear",
+        rel:"noun ⚲"
+    },
+    {
+        word:"øy",
+        def:"island",
+        rel:"noun ♀"
+    },
+    {
+        word:"øye",
+        def:"eye",
+        rel:"noun ⚲"
+    },
+    {
+        word:"årstid",
+        def:"season",
+        rel:"noun ♀"
+    },
+];
 
-// fill the dictionary with words
+
+// fill dictionary with words
 init = function(){
     for (var i = 0; i < dictionary.length; i++){
     document.getElementById('word_list').innerHTML += "<li onClick='show(" + i + ")'>"
@@ -132,17 +183,20 @@ init = function(){
 // call the init function when the page loads
 init();
 
-// display a word, its definition, and related words
+// display the word, its definition, and additional information
 show = function(i){
     document.getElementById('word_text').innerHTML = dictionary[i].word;
     document.getElementById('definition').innerHTML = dictionary[i].def;
+    document.getElementById('related').innerHTML = dictionary[i].rel;
 
+    /*
     var list = "";
-
     for (var j = 0; j < dictionary[i].rel.length; j++) {
         list += "<li>" + dictionary[i].rel[j] + "</li>";
         document.getElementById('related').innerHTML = list;
     }
+     */
+
 }
 
 show(0);
@@ -162,8 +216,8 @@ search = function (){
             break;
         } else {
             document.getElementById('word_text').innerHTML = "Word not found";
-            document.getElementById('definition').innerHTML = "Definition not found";
-            document.getElementById('related').innerHTML = "No related words found";
+            document.getElementById('definition').innerHTML = "";
+            document.getElementById('related').innerHTML = "";
         }
     }
     if (found >= 0) {

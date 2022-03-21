@@ -417,7 +417,8 @@
     transition: 0.2s;
     }
     .button:hover{
-        opacity: 0.7;
+        opacity: 0.8;
+        box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.4), 0 6px 30px 0 rgba(0, 0, 0, 0.38);
     }
     #contact {
         display: flex;

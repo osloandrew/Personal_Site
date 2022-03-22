@@ -49,6 +49,7 @@
     }
     .button-text{
         align-content: center;
+        border-radius: 20px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         display: block;
         height: 100px;
@@ -57,6 +58,10 @@
         margin-left: auto;
         margin-right: auto;
         max-width: 90%;
+    }
+    .contact-header{
+        font-family: "Source Serif Pro", serif;
+        font-weight: 300;
     }
     #content {
         background-color: #ffffff;
@@ -125,6 +130,7 @@
     }
     #emailLink {
         align-content: center;
+        border-radius: 20px;
         text-decoration: none;
         border: none;
         color: white;
@@ -136,6 +142,7 @@
         max-width: 70%;
     }
     .fa {
+        border-radius: 20px;
         font-size: xxx-large;
         margin: 20px;
         padding: 50px;
@@ -354,14 +361,15 @@
     }
     #phoneLink {
         align-content: center;
-        text-decoration: none;
+        background-color: white;
         border: none;
+        border-radius: 20px;
         color: white;
         display: block;
+        text-decoration: none;
         padding: 0 0 0 0;
         margin-left: auto;
         margin-right: auto;
-        background-color: white;
         max-width: 70%;
     }
     #social{
@@ -447,6 +455,7 @@
         box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.4), 0 6px 30px 0 rgba(0, 0, 0, 0.38);
     }
     .button-text{
+        border-radius: 10px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         display: block;
         height: 50px;
@@ -467,7 +476,10 @@
         margin-left: auto;
         margin-right: auto;
         justify-content: center;
-        gap: 40px;
+    }
+    .contact-header{
+        font-family: "Source Serif Pro", serif;
+        font-weight: 300;
     }
     #content {
     background-color: #ffffff;
@@ -525,12 +537,30 @@
         text-transform: uppercase;
     }
     #email {
+        align-content: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 95%;
         height: 80px;
-}
+    }
+    #emailLink {
+        align-content: center;
+        background-color: white;
+        border: none;
+        border-radius: 10px;
+        color: white;
+        display: block;
+        text-decoration: none;
+        padding: 0 0 0 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
     .fa {
         align-content: center;
         align-items: center;
         border: none;
+        border-radius: 10px;
         color: white;
         display: block;
         justify-content: center;
@@ -704,7 +734,25 @@
     font-family: "Source Serif Pro", serif;
 }
     #phone {
+        align-content: center;
+        display: block;
         height: 80px;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 95%;
+    }
+    #phoneLink {
+        align-content: center;
+        background-color: white;
+        border: none;
+        border-radius: 10px;
+        color: white;
+        display: block;
+        height: 80px;
+        text-decoration: none;
+        padding: 0 0 0 0;
+        margin-left: auto;
+        margin-right: auto;
     }
     #social{
         display: flex;

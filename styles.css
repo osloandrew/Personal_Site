@@ -47,6 +47,17 @@
     .button:hover{
         opacity: 0.7;
     }
+    .button-text{
+        align-content: center;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        display: block;
+        height: 100px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 90%;
+    }
     #content {
         background-color: #ffffff;
         border-radius: 10px;
@@ -419,6 +430,16 @@
     .button:hover{
         opacity: 0.8;
         box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.4), 0 6px 30px 0 rgba(0, 0, 0, 0.38);
+    }
+    .button-text{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        display: block;
+        height: 80px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        transition: 0.2s;
     }
     #contact {
         display: flex;

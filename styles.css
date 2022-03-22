@@ -383,8 +383,9 @@
     ul {
         font-size: 40px;
         font-family: "Source Serif Pro", serif;
-        margin-left: 50px;
-        margin-right: 50px;
+        margin-left: 76px;
+        margin-right: 76px;
+        line-height: 64px;
     }
     .w3-bar {
         text-align: center;
@@ -723,11 +724,12 @@
         text-transform: uppercase;
     }
     ul {
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-left: 120px;
+        margin-right: 120px;
         font-size: 18px;
         font-family: "Source Serif Pro", serif;
         letter-spacing: 0.6px;
+        line-height: 28px;
     }
     .w3-bar {
         text-align: center;

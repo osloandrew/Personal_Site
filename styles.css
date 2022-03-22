@@ -434,12 +434,16 @@
     .button-text{
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         display: block;
-        height: 80px;
+        height: 50px;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 50px;
-        margin-bottom: 50px;
+        margin-top: 30px;
+        margin-bottom: 30px;
         transition: 0.2s;
+    }
+    .button-text:hover{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        opacity: 0.8;
     }
     #contact {
         display: flex;

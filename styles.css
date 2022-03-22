@@ -211,6 +211,7 @@
         font-family: "Source Sans Pro", sans-serif;
         font-weight: 400;
         font-size: 50px;
+        text-transform: uppercase;
     }
     h3 {
         display: block;
@@ -343,13 +344,6 @@
         margin-left: 50px;
         margin-right: 50px;
     }
-
-    ul {
-        font-size: 40px;
-        font-family: "Source Serif Pro", serif;
-        margin-left: 50px;
-        margin-right: 50px;
-    }
     #phone {
         align-content: center;
         display: block;
@@ -385,6 +379,12 @@
         margin-top: -10px;
         font-size: 38px;
         text-transform: uppercase;
+    }
+    ul {
+        font-size: 40px;
+        font-family: "Source Serif Pro", serif;
+        margin-left: 50px;
+        margin-right: 50px;
     }
     .w3-bar {
         text-align: center;
@@ -601,12 +601,13 @@
     text-align: center;
 }
     h2 {
-    display: block;
-    text-align: center;
-    margin-top:30px;
-    margin-bottom:30px;
-    font-family: "Source Sans Pro", sans-serif;
-    font-weight: 400;
+        display: block;
+        text-align: center;
+        margin-top:30px;
+        margin-bottom:30px;
+        font-family: "Source Sans Pro", sans-serif;
+        font-weight: 400;
+        text-transform: uppercase;
 }
     h3 {
     display: block;

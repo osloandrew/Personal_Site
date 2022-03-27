@@ -59,6 +59,10 @@
         margin-right: auto;
         max-width: 90%;
     }
+    #cherry {
+        height: 160px;
+        width: 160px;
+    }
     .contact-header{
         font-family: "Source Serif Pro", serif;
         font-weight: 300;
@@ -477,6 +481,10 @@
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         opacity: 0.8;
     }
+    #cherry {
+        height: 100px;
+        width: 100px;
+    }
     #contact {
         display: flex;
         margin-top: 50px;
@@ -490,45 +498,45 @@
         font-weight: 300;
     }
     #content {
-    background-color: #ffffff;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    display: block;
-    min-width: 800px;
-    max-width: 800px;
-    min-height: 500px;
-    margin: auto;
-    margin-top: 100px;
-    margin-bottom: 50px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 5px;
-    padding-right: 5px;
+        background-color: #ffffff;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        display: block;
+        min-width: 800px;
+        max-width: 800px;
+        min-height: 500px;
+        margin: auto;
+        margin-top: 100px;
+        margin-bottom: 50px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
 }
     .cv-icon {
-    border: 0.5px solid #acafb2;
-    border-radius: 100px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    display: block;
-    margin-top: 35px;
-    margin-bottom: 35px;
-    margin-left: auto;
-    margin-right: auto;
-    height: 70px;
-    width: 70px;
+        border: 0.5px solid #acafb2;
+        border-radius: 100px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        display: block;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        height: 60px;
+        width: 60px;
 }
     .cv-icon-link {
-    background-color: white;
-    height: 50px;
-    width: 50px;
-    float: left;
-    border: 2px solid #acafb2;
-    border-radius: 5px;
-    margin: 20px;
+        background-color: white;
+        height: 50px;
+        width: 50px;
+        float: left;
+        border: 2px solid #acafb2;
+        border-radius: 5px;
+        margin: 20px;
 }
     .cv-unit {
-    margin-top: 50px;
-    margin-bottom: 50px;
+        margin-top: 50px;
+        margin-bottom: 50px;
 }
     .cv-unit-sub {
 }

@@ -83,12 +83,12 @@
         border-radius: 100px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         display: block;
-        margin-top: 50px;
-        margin-bottom: 50px;
+        margin-top: 60px;
+        margin-bottom: 60px;
         margin-left: auto;
         margin-right: auto;
-        height: 100px;
-        width: 100px;
+        height: 120px;
+        width: 120px;
     }
     .cv-icon-link {
         background-color: white;
@@ -208,7 +208,7 @@
     }
     h1 {
         display: block;
-        font-family: "Source Sans Pro", sans-serif;
+        font-family: "Source Serif Pro", serif;
         font-weight: 500;
         margin-top: 30px;
         margin-bottom: 30px;
@@ -231,7 +231,7 @@
         margin-bottom: 20px;
         margin-left: 20px;
         margin-right: 20px;
-        font-family: "Source Serif Pro", Serif;
+        font-family: "Source Serif Pro", serif;
         font-weight: 400;
         font-size: 36px;
         letter-spacing: 1.2px;
@@ -510,12 +510,12 @@
     border-radius: 100px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     display: block;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 35px;
+    margin-bottom: 35px;
     margin-left: auto;
     margin-right: auto;
-    height: 50px;
-    width: 50px;
+    height: 70px;
+    width: 70px;
 }
     .cv-icon-link {
     background-color: white;
@@ -632,12 +632,12 @@
     .grid-item {
 }
     h1 {
-    display: block;
-    font-family: "Source Sans Pro", sans-serif;
-    font-weight: 500;
-    margin-top:30px;
-    margin-bottom: 30px;
-    text-align: center;
+        display: block;
+        font-family: "Source Serif Pro", serif;
+        font-weight: 500;
+        margin-top:30px;
+        margin-bottom: 30px;
+        text-align: center;
 }
     h2 {
         display: block;
@@ -656,7 +656,7 @@
         margin-right: 20px;
         text-align: center;
         text-transform: uppercase;
-        font-family: "Source Serif Pro", Serif;
+        font-family: "Source Serif Pro", serif;
         font-size: 24px;
         font-weight: 300;
         line-height: 40px;

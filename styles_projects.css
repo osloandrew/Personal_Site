@@ -636,13 +636,14 @@
         text-align: center;
 }
     #header {
-    background-color: #354344;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    overflow: hidden;
-    max-height: 55px;
-    width:100%;
-    top: 0;
-    position: fixed;
+        background-color: #354344;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        max-height: 55px;
+        overflow: hidden;
+        position: fixed;
+        top: 0;
+        width:100%;
+        z-index: 10;
 }
     hr {
         margin-left: auto;

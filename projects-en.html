@@ -37,15 +37,17 @@
   <hr class="hr-1">
 
   <h3>BMI Calculator</h3>
-  <label for="weight">Weight (in kg):</label>
-  <input type="text" id="weight" name="weight" placeholder="Enter weight" required><br>
+  <div class="grid-container">
+    <label for="weight">Weight (in kg):</label>
+    <input type="text" id="weight" name="weight" placeholder="Enter weight" required><br>
 
-  <label for="height">Height (in meters):</label>
-  <input type="text" id="height" name="height" placeholder="Enter height" required><br>
+    <label for="height">Height (in meters):</label>
+    <input type="text" id="height" name="height" placeholder="Enter height" required><br>
 
-  <button onclick="calculateBMI()">Calculate BMI</button>
+    <button class="button" onclick="calculateBMI()">Calculate BMI</button>
 
-  <div id="result"></div>
+    <div id="result"></div>
+  </div>
 
 </div>
 

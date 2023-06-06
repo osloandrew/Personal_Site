@@ -1,37 +1,55 @@
-function calculateBMI() {
-    // Get user input values
-    var weight = parseFloat(document.getElementById("weight").value);
-    var height = parseFloat(document.getElementById("height").value);
 
-    // Calculate BMI
-    var bmi = weight / (height * height);
-
-    // Display the result
-    document.getElementById("result").innerHTML = "Your BMI is: " + bmi.toFixed(2);
-  }
 
 var wordData = [
     {
-      word: "本",
-      kana: "ほん",
-      romaji: "hon",
-      translation: "book",
-      sentence: "本を読むのが好きなんです。",
+      word: "です",
+      kana: null,
+      translation: "be",
+      sentence: "私は医者です。",
+      sentenceTranslation: "I'm a doctor.",
     },
     {
-      word: "家",
-      kana: "いえ",
-      romaji: "ie",
-      translation: "house",
-      sentence: "私の家は近いです。",
+      word: "鳥",
+      kana: "とり",
+      translation: "bird",
+      sentence: "鳥の声が聞こえる。",
+      sentenceTranslation: "I hear a bird.",
+    },
+    {
+      word: "本",
+      kana: "ほん",
+      translation: "book",
+      sentence: "本を読むのが好きなんです。",
+      sentenceTranslation: "I like reading books.",
     },
     {
       word: "猫",
       kana: "ねこ",
-      romaji: "neko",
       translation: "cat",
       sentence: "猫は魚を食べるのが好きです。",
-    }
+      sentenceTranslation: "Cats like eating fish.",
+    },
+    {
+      word: "家",
+      kana: "いえ",
+      translation: "house",
+      sentence: "私の家は近いです。",
+      sentenceTranslation: "My house is close.",
+    },
+    {
+      word: "音楽",
+      kana: "おんがく",
+      translation: "music",
+      sentence: "どんな音楽が好きなんですか？",
+      sentenceTranslation: "What kind of music do you like?",
+    },
+    {
+      word: "お茶",
+      kana: "おちゃ",
+      translation: "tea",
+      sentence: "午後はお茶を飲んでいます。",
+      sentenceTranslation: "I drink tea in the afternoon.",
+    },
   ];
 
 
@@ -54,12 +72,23 @@ function updateWordOfTheDay() {
 
       document.getElementById("word").textContent = randomWordData.word;
       document.getElementById("kana").textContent = randomWordData.kana;
-      document.getElementById("romaji").textContent = randomWordData.romaji;
       document.getElementById("translation").textContent = randomWordData.translation;
       document.getElementById("sentence").textContent = randomWordData.sentence;
+      document.getElementById("sentenceTranslation").textContent = randomWordData.sentenceTranslation;
 
       previousIndex = randomIndex;
 }
-
 updateWordOfTheDay();
-setInterval(updateWordOfTheDay, 24 * 60 * 60 * 1000);
+
+
+function calculateBMI() {
+  // Get user input values
+  var weight = parseFloat(document.getElementById("weight").value);
+  var height = parseFloat(document.getElementById("height").value / 100);
+
+  // Calculate BMI
+  var bmi = weight / (height * height);
+
+  // Display the result
+  document.getElementById("result").innerHTML = "Your BMI is: " + bmi.toFixed(2);
+}

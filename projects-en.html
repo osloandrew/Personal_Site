@@ -40,13 +40,13 @@
     <div class="grid-item" id="kana">
     </div>
 
-    <div class="grid-item" id="romaji">
-    </div>
-
     <div class="grid-item" id="translation">
     </div>
 
     <div class="grid-item" id="sentence">
+    </div>
+
+    <div class="grid-item" id="sentenceTranslation">
     </div>
 
   </div>
@@ -57,20 +57,24 @@
   <div class="grid-container">
 
     <div class="grid-item">
-      <label for="weight">Weight (in kg):</label>
+      <label for="weight">Weight (in kilograms):</label>
       <input type="text" id="weight" name="weight" placeholder="Enter weight" required><br>
     </div>
 
     <div class="grid-item">
-      <label for="height">Height (in meters):</label>
+      <label for="height">Height (in centimeters):</label>
       <input type="text" id="height" name="height" placeholder="Enter height" required><br>
     </div>
 
-    <div class="grid-item">
+
+  </div>
+
+  <div class="grid-container">
+    
+    <div class="grid-item" style="margin-left: auto; margin-right: auto;">
       <button class="button" onclick="calculateBMI()">Calculate BMI</button>
       <div id="result"></div>
     </div>
-
   </div>
 
 

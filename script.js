@@ -37,16 +37,28 @@ var wordData = [
 
 
     // Function to update the word of the day
+    var previousIndex = -1;
+
+function getRandomIndex() {
+      var randomIndex;
+      do {
+        randomIndex = Math.floor(Math.random() * wordData.length);
+      } while (randomIndex === previousIndex);
+      return randomIndex;
+    }
+
 function updateWordOfTheDay() {
-      // Get a random word data object from the array
-      var randomIndex = Math.floor(Math.random() * wordData.length);
+
+      var randomIndex = getRandomIndex();
       var randomWordData = wordData[randomIndex];
-      // Update the HTML elements with the word data
+
       document.getElementById("word").textContent = randomWordData.word;
       document.getElementById("kana").textContent = randomWordData.kana;
       document.getElementById("romaji").textContent = randomWordData.romaji;
       document.getElementById("translation").textContent = randomWordData.translation;
       document.getElementById("sentence").textContent = randomWordData.sentence;
+
+      previousIndex = randomIndex;
 }
 
 updateWordOfTheDay();

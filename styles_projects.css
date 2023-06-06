@@ -1,4 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Inter:wght@300;400;500;600&family=Sahitya&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kosugi Maru');
+
+#kana{
+    font-family: "Kosugi Maru";
+    margin-top: 20px;
+}
+#romaji{
+    margin-top: 20px;
+}
+#sentence {
+    font-family: "Kosugi Maru";
+    margin-top: 20px;
+}
+#translation {
+    color: #777;
+    font-size: 18px;
+    margin-top: 20px;
+}
+#word {
+    font-family: "Kosugi Maru";
+    font-size: 24px;
+    margin-top: 10px;
+  }
 
 @media only screen and (max-device-width: 500px)
 {
@@ -592,10 +615,11 @@
     text-align: center;
 }
     .grid-container {
-    display: grid;
-    align-content: center;
+    display: flex;
+    justify-content: space-between;
 }
     .grid-item {
+
 }
     h1 {
     display: block;

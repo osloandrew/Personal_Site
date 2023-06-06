@@ -424,7 +424,7 @@
     color: white;
     font-family: "Source Sans Pro", sans-serif;
     text-decoration: none;
-        transition: 0.2s;
+    transition: 0.2s;
 }
     a:hover{
     color: white;

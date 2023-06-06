@@ -21,33 +21,56 @@
   <img src="Images/japan.jpg" class="banner" id="banner1" alt="banner">
 </div>
 <div id="content">
+
   <h1>
-    Projects
+    JavaScript Projects
   </h1>
   <hr>
-  <h3>
-    Data Visualization
-  </h3>
-  <iframe src="https://data.worldbank.org/share/widget?contextual=default&indicators=MS.MIL.XPND.ZS&locations=RU-UA" width='700' height='466' frameBorder='0' scrolling="no" ></iframe>
-  <h3>
-    World Universities Visualization
-  </h3>
-  <div class='tableauPlaceholder' id='viz1647437979094' style='position: relative'><noscript><a href='#'><img alt='Best University by Country ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Be&#47;BestUniversitiesbyCountry&#47;Sheet1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='BestUniversitiesbyCountry&#47;Sheet1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Be&#47;BestUniversitiesbyCountry&#47;Sheet1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1647437979094');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+
+  <h3>Japanese Word of the Day</h3>
+
+  <div class="grid-container">
+
+    <div class="grid-item" id="word">
+    </div>
+
+    <div class="grid-item" id="kana">
+    </div>
+
+    <div class="grid-item" id="romaji">
+    </div>
+
+    <div class="grid-item" id="translation">
+    </div>
+
+    <div class="grid-item" id="sentence">
+    </div>
+
+  </div>
 
   <hr class="hr-1">
 
   <h3>BMI Calculator</h3>
   <div class="grid-container">
-    <label for="weight">Weight (in kg):</label>
-    <input type="text" id="weight" name="weight" placeholder="Enter weight" required><br>
 
-    <label for="height">Height (in meters):</label>
-    <input type="text" id="height" name="height" placeholder="Enter height" required><br>
+    <div class="grid-item">
+      <label for="weight">Weight (in kg):</label>
+      <input type="text" id="weight" name="weight" placeholder="Enter weight" required><br>
+    </div>
 
-    <button class="button" onclick="calculateBMI()">Calculate BMI</button>
+    <div class="grid-item">
+      <label for="height">Height (in meters):</label>
+      <input type="text" id="height" name="height" placeholder="Enter height" required><br>
+    </div>
 
-    <div id="result"></div>
+    <div class="grid-item">
+      <button class="button" onclick="calculateBMI()">Calculate BMI</button>
+      <div id="result"></div>
+    </div>
+
   </div>
+
+
 
 </div>
 
